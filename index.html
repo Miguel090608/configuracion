@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .config-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        .config-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .config-item {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .config-item:hover {
+            background-color: #e2e2e2;
+        }
+        .config-item h3 {
+            margin: 0;
+            color: #007BFF;
+        }
+        .config-item p {
+            margin: 5px 0 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="config-container">
+        <h2>Configuración</h2>
+        <div class="config-item">
+            <h3>Modificar perfil</h3>
+            <p>Actualiza tu información personal y preferencias.</p>
+        </div>
+        <div class="config-item">
+            <h3>Actualizar información</h3>
+            <p>Mantén tus datos siempre al día.</p>
+        </div>
+        <div class="config-item">
+            <h3>Recordatorio</h3>
+            <p>Configura alertas para no perderte ninguna carrera.</p>
+        </div>
+        <div class="config-item">
+            <h3>Metas alcanzadas</h3>
+            <p>Revisa y celebra tus logros.</p>
+        </div>
+    </div>
+</body>
+</html>
